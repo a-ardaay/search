@@ -1,0 +1,29 @@
+body {background-color: gray;
+}
+
+
+.top-bar {
+    text-align: right;
+    height: 5%;
+    width: 100%;
+    font-family: Arial;
+    font-size: 1em;
+    background-color: red;
+}
+
+.bottom-bar{
+    bottom: 5%;
+    width: 100%;
+    text-align: left;
+}
+
+.search {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    top: 50%;
+}
+
