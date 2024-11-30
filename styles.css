@@ -4,7 +4,7 @@ html, body {
   }
 
 main {
-    background-color: lightgray;
+    background-color: white;
     height: 88%;
 }
 
@@ -14,11 +14,11 @@ header {
     width: 100%;
     font-family: Arial;
     font-size: 1em;
-    background-color: red;
+    background-color: lightgray;
 }
 
 footer{
-    background-color: brown;
+    background-color: lightgray;
     margin: auto;
     text-align: left;
     height: 12%;
@@ -26,11 +26,14 @@ footer{
 
 .search {
     width: 50%;
-    height: 50%;
-    margin-top: 10%;
-    background-color: blue;
+    height: 80%;
+    margin: auto;
+    margin-top: auto;
+    padding: auto;
     text-align: center;
     padding: 10%;
 }
 
-
+.google {
+    font-size: 4rem;
+}
