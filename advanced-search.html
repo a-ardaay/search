@@ -14,11 +14,26 @@
         </header>
         <div class="search">
             <h1 class="google"><span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: gold;">o</span><span style="color: blue;">g</span><span style="color: green;">l</span><span style="color: red;">e</span></h1>
-            <div style="text-align: left;"><p>Find pages with</p></div>
+            
             <form action="https://google.com/search" >
-                <div class="advanced-area">
-                    <input type="text" name="q" class="form-control">
-                    <p>Find pages with… “all these words:”</p>
+                <div class="advanced-search-area">
+                <input type="text" name="as_q" class="form-control">
+                <p>all these words:</p>
+                </div>
+                <br>
+                <div class="advanced-search-area">
+                <input type="text" name="as_epq" class="form-control">
+                <p>this exact word or phrase</p>
+                </div>
+                <br>
+                <div class="advanced-search-area">
+                <input type="text" name="q" class="form-control">
+                <p>any of these words</p>
+                </div>
+                <br>
+                <div class="advanced-search-area">
+                <input type="text" name="q" class="form-control">
+                <p>none of these words</p>
                 </div>
                 <br>
                 <input type="submit" value="Advanced Search" class="btn btn-primary">
