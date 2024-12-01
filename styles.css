@@ -14,11 +14,11 @@ header {
     width: 100%;
     font-family: Arial;
     font-size: 1em;
-    background-color: lightgray;
+    background-color: #fdfdfd;
 }
 
 footer{
-    background-color: lightgray;
+    background-color: #fdfdfd;
     margin: auto;
     text-align: left;
     height: 12%;
